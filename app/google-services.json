@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712316583949",
+    "project_id": "mensajesuniandes",
+    "storage_bucket": "mensajesuniandes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712316583949:android:2d22bbcc8dbcd035055544",
+        "android_client_info": {
+          "package_name": "com.example.mensajesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712316583949-ic9u9udm3udjvcntr21nt9eu4ptfod3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANj0PIMF4xQGfklXxUqtVGf8ExXMoPB-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712316583949-ic9u9udm3udjvcntr21nt9eu4ptfod3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
