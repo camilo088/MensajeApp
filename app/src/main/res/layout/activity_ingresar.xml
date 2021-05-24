@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradiante_registrarse"
+    android:background="@android:color/holo_orange_dark"
     tools:context=".IngresarActivity">
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginEnd="138dp"
         android:layout_marginRight="138dp"
         android:text="Ingresar"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,19 +50,34 @@
         android:id="@+id/buttonIngresar"
         android:layout_width="301dp"
         android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
         android:layout_marginBottom="47dp"
         android:background="@color/teal_200"
         android:text="Ingresar"
+        app:backgroundTint="#F44336"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/buttonRegistrarseLog"
         android:layout_width="301dp"
         android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
         android:layout_marginBottom="76dp"
         android:background="@color/teal_200"
         android:text="Registrarse"
+        app:backgroundTint="#F44336"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonIngresar"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
